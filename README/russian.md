@@ -18,7 +18,7 @@
 $ docker pull prohetamine/docker-node-web-radio
 ```
 
-Also build
+Также сборка
 
 ```sh
 $ git clone git@github.com:prohetamine/docker-node-web-radio.git
