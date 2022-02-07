@@ -1,5 +1,6 @@
 FROM ubuntu:20.04
 
+MAINTAINER "Stas Prohetamine https://github.com/prohetamine"
 
 RUN apt-get update -y
 RUN apt update
