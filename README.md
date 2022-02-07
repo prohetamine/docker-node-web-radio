@@ -12,7 +12,7 @@ This example shows how you can start broadcasting using docker without installat
 
 ### Get started
 
-Let's install the container from Docker Hub ```docker-node-web-radio```
+Let's install the container from Docker Hub ```prohetamine/docker-node-web-radio```
 
 ```sh
 $ docker pull prohetamine/docker-node-web-radio
