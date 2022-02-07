@@ -5,10 +5,10 @@
 
 # Docker Node Web Radio
 
-> docker-launcher-web-radio - радиостанция для nodejs, этот пример для основной библиотеки radio-station.
+> docker-node-web-radio - радиостанция для nodejs, этот пример для основной библиотеки radio-station.
 
 ### Почему ?
-Этот пример показывает, как вы можете начать вещание с помощью docker без трудностей с установкой, это всего лишь пример, официальную документацию можно найти в [radio-station](https://github.com/prohetamine/radio-station)
+Этот пример показывает, как вы можете начать вещание с помощью docker без трудностей с установкой, это всего лишь пример, официальную документацию можно найти в [radio-station](https://github.com/prohetamine/radio-station), если вы хотите вести полноценный эфир с голосом используйте [docker-launcher-web-radio](https://github.com/prohetamine/docker-launcher-web-radio)
 
 ### С чего начать
 
