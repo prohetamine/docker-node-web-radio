@@ -15,7 +15,7 @@ This example shows how you can start broadcasting using docker without installat
 Let's install the container from Docker Hub ```docker-node-web-radio```
 
 ```sh
-$ docker pull docker-node-web-radio
+$ docker pull prohetamine/docker-node-web-radio
 ```
 
 Also build
@@ -31,7 +31,7 @@ $ docker build . -t docker-node-web-radio
 Now just run and go to the default address http://localhost:8080
 
 ```sh
-$ docker run --rm -p 8080:8080 -v /yourtracksfolder:/tracks-for-load docker-node-web-radio
+$ docker run --rm -p 8080:8080 -v /yourtracksfolder:/tracks-for-load prohetamine/docker-node-web-radio
 ```
 
 ### Contacts
