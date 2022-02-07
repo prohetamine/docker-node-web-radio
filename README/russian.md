@@ -12,7 +12,7 @@
 
 ### С чего начать
 
-Let's install the container from Docker Hub ```prohetamine/docker-node-web-radio```
+Установим контейнер из Docker Hub ```prohetamine/docker-node-web-radio```
 
 ```sh
 $ docker pull prohetamine/docker-node-web-radio
