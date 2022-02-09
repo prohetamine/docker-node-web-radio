@@ -1,12 +1,28 @@
 const express         = require('express')
+    , _cors           = require('cors')
     , app             = express()
     , http            = require('http')
     , path            = require('path')
+    , fs              = require('fs')
     , { Server }      = require('socket.io')
     , RadioStation    = require('radio-station')
 
+const cors = process.env.CORS
+
 const server = http.createServer(app)
-    , io = new Server(server)
+    , io = new Server(server, cors ? {
+        cors: {
+          origin: cors
+        }
+      } : {})
+
+if (cors) {
+  app.use(
+    _cors({
+      origin: cors
+    })
+  )
+}
 
 const port = 8080
 

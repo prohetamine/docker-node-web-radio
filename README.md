@@ -31,7 +31,7 @@ $ docker build . -t docker-node-web-radio
 Now just run and go to the default address http://localhost:8080
 
 ```sh
-$ docker run --rm -p 8080:8080 -v /yourtracksfolder:/tracks-for-load prohetamine/docker-node-web-radio
+$ docker run --rm -p 8080:8080 -e CORS="*" -v /yourtracksfolder:/tracks-for-load prohetamine/docker-node-web-radio
 ```
 
 ### Contacts
